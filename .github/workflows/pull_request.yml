@@ -27,5 +27,4 @@ jobs:
           
       - name: Terraform Init
         run: |
-          terraform init 
-          -backend-config test-backend-config.tfvars -reconfigure
+          terraform init -backend-config test-backend-config.tfvars
